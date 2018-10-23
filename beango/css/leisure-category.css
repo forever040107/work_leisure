@@ -1,0 +1,82 @@
+#category a.active,
+#category .active a{
+  color: #EB0045;
+}
+@media (min-width: 992px) {
+  #category a:hover{color: #EB0045;}
+}
+.sub-nav{
+  /* padding: 0 1em; */
+}
+.sub-nav .scrollmenu{
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.sub-nav .scrollmenu a{
+  display: inline-block;
+  position: relative;
+  color: #777;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-top: 30px;
+  margin-top: 10px;
+}
+.sub-nav .scrollmenu a i{
+  position: absolute;
+  top: 9px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.sub-nav .scrollmenu a i:hover{
+  color: #EB0045;
+}
+/* .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+  background-color: #777;
+} */
+@media (min-width: 992px) {
+  .scrollmenu .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+    background-color: #ddd;
+  }  
+}
+/*
+篩選
+*/
+.filter-wrapper{
+  width: 155px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.filter-wrapper>div{
+  position: relative;
+  display: inline-block;
+  border-right: 1px solid #777;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.filter-wrapper>div:last-child{
+  border-right: none;
+}
+.price-block i{
+  position: absolute;
+}
+.price-block i.active{
+  color: #EB0045;
+}
+.price-block .fa-caret-up{
+  top:0;
+  right: 0;
+}
+.price-block .fa-caret-down{
+  bottom:0;
+  right: 0;
+}
+.pro-view .item{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.pro-view .row{
+  margin-left: 0;
+  margin-right: 0;
+}
